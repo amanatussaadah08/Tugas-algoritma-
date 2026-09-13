@@ -9,7 +9,7 @@
 2.Password  
 3.Kode OTP  
 ### Langkah-langkah:  
-1.Pengguna meginput email dan password  
+1.Pengguna menginput email dan password  
 2.sistem akan memvalidasi format email(mengandung "@" dan domain valid)  
 3.Sistem memvalidasi password(misal minimal 8 karakter, biasanya terdiri dari huruf dan angka)  
 4.Jika format valid maka sistem akan menyimpan data sementara( akun belum aktif) 
@@ -26,9 +26,7 @@
 ### Definiteness(kepastian):  
 setiap langkah diurutkan secara jelas dan tidak ada unsur ambiguitas seperti aturan validasi email dan password sudah pasti harus dengan format mengandung "@"atau minimal 8 karakter begitu pula dengan pencocokkan OTP harus sama persis dan belum kadaluwarsa. 
 ### finiteness(keterbatasan):  
-Proses pasti berakhir dengan jelas di sejumlah langkah tertentu, tidaak terus-menerus berjalan tanpa batas. seperti:  
-1.Batas waktu OTP 5 menit  
-2.Batas percobaan maksimal 3 kali  
+Proses pasti berakhir dengan jelas di sejumlah langkah tertentu, tidaak terus-menerus berjalan tanpa batas. seperti batas waktu OTP 5 menit dan batas percobaan maksimal 3 kali   
 ### Effectiveness (efektivitas)  
 setiap langkah dapat benar benar dilakukan secara nyata oleh sistem  
 
