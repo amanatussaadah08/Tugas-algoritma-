@@ -1,6 +1,6 @@
 # Tugas-algoritma-Kelompok-12  
  **Agesti Rahmi Gusmita   1251170016 (sebagai Project Manager)**  
- **Widya Cahyaning Ababil 1251170067 (sebagai Developer)**  
+ **Widya Cahyaning Ababil 1251170067 (sebagai Developer)**   
  **Salsa Amanatussaadah   1251170018 (sebagai system analysis)**  
 
  BEGIN  
@@ -33,9 +33,7 @@ FOR i = 1 TO 300 DO
   COMPUTE t_vsaverage = 301 / (2 * i)  
 
   IF i == 150 THEN  
-      SET keterangan = 150 (ktm) 
-  ELSE  
-      SET keterangan =  
+      150 | 450 s | 447 s | 2.00x | 1.00x <-- (ktm)
   ENDIF  
   
   OUTPUT baris tabel dengan nilai i, t_k, t_selisihbestwaktu, t_vsworstcase, t_vsaverage, dan keterangan  
